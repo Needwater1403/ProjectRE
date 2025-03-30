@@ -3,22 +3,23 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Boss
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Terrain
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Characters
+  - Ground
+  - PostProcessing
+  - DamageableCharacter
+  - DamageCollider
+  - Interactable
+  - Projectiles (Pass through Char)
+  - Ranged Projectiles
   - 
   - 
   - 

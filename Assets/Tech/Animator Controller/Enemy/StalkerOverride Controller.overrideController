@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StalkerOverride Controller
+  m_Controller: {fileID: 9100000, guid: afd6a86f6e35df3489ad76298833e1bb, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 2232985245941357681, guid: 3c442fabde6485a4d86d0bef0a4a20ea,
+      type: 3}
+    m_OverrideClip: {fileID: 7289408729517339571, guid: db8ca894868032a4992b6bbc82b4fb35,
+      type: 3}
+  - m_OriginalClip: {fileID: 5534346714299562448, guid: 5b2c6c9cc18bad844be18bffbb35add1,
+      type: 3}
+    m_OverrideClip: {fileID: -1771655510823210877, guid: 36a6db80080571b4a8fc4fd957bef2e3,
+      type: 3}

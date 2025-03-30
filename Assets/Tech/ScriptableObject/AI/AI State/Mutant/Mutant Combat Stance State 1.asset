@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17de4ee1bc8457b41b7343c1150ada3f, type: 3}
+  m_Name: Mutant Combat Stance State 1
+  m_EditorClassIdentifier: 
+  allAIAttackActions:
+  - {fileID: 11400000, guid: 88ea283d8b83c9d4e83c6a3d12b7d70d, type: 2}
+  - {fileID: 11400000, guid: b8a7addd0b0b60c4c983d9db376735a3, type: 2}
+  - {fileID: 11400000, guid: 56416964831318a41986e3e7cd62a69f, type: 2}
+  - {fileID: 11400000, guid: be5e671d38144c1458bdd5e82bf459ea, type: 2}
+  availableAIAttackActions:
+    list: []
+  selectedAttackAction: {fileID: 0}
+  canDoCombo: 0
+  chanceToDoCombo: 0
+  maxAggroDistance: 7
+  minAggroDistance: 2
+  canStrafe: 1

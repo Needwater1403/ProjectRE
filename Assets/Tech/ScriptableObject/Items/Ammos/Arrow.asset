@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2224b0f2739dfca4489a35ffbcc1c574, type: 3}
+  m_Name: Arrow
+  m_EditorClassIdentifier: 
+  ID: 3004
+  amount: 1
+  basePriceInShop: 0
+  name: Arrow
+  baseName: 
+  icon: {fileID: 21300000, guid: b8b889c01259bc34ab43e200d38ca2e7, type: 3}
+  description: 
+  itemType: 2
+  type: 4
+  maxAmount: 30
+  physicalDamage: 80
+  fireDamage: 0
+  lightningDamage: 0
+  poiseDamage: 5
+  releaseModel: {fileID: 8213949405098392602, guid: 07a13e5b4c8e16d4bbf7926adfef0821,
+    type: 3}
+  forwardVelocity: 2200
+  upwardVelocity: 0
+  mass: 0.01
+  explosionRadius: 5

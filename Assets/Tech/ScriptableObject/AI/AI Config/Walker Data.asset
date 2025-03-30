@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e051b770e9e1fc0419865888011c53e9, type: 3}
+  m_Name: Walker Data
+  m_EditorClassIdentifier: 
+  speed: 2
+  angularSpeed: 120
+  acceleration: 8
+  verticalMovement: 0.5
+  animatorOverrideController: {fileID: 22100000, guid: cc20c2f43a42c1e4f80947d756a499c7,
+    type: 2}
+  lineOfSight: 13
+  minViewableAngle: -35
+  maxViewableAngle: 35
+  canPivot: 0
+  ignoreStanceBreak: 0
+  maxStance: 30
+  currentStance: 0
+  stanceRecoverySpeed: 15
+  defaultStanceRecoveryTime: 15
+  attackRotationSpeed: 25
+  totalPhase: 0
+  phase2CapPercentage: 0
+  phase3CapPercentage: 0
+  maxHealth: 60
+  maxStamina: 100
+  poise: 20
+  defaultPoiseResetTimer: 10
+  changePhaseBasedOnHp: 0
+  physicalDamage: 20
+  fireDamage: 0
+  lightningDamage: 0
+  poiseDamage: 20
+  staminaDamage: 0
+  attack01DmgMultiplier: 1
+  attack02DmgMultiplier: 1

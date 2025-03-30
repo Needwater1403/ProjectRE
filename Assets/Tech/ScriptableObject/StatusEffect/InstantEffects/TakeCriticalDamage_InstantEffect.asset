@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500e58a5dbf3eb54ea7a3699a501ec84, type: 3}
+  m_Name: TakeCriticalDamage_InstantEffect
+  m_EditorClassIdentifier: 
+  EffectID: IE02
+  attackerCharacterManager: {fileID: 0}
+  attackerWeaponType: 0
+  physicalDmg: 0
+  fireDmg: 0
+  lightningDmg: 0
+  poiseDmg: 0
+  isPoiseBroken: 0
+  playDmgAnimation: 0
+  manuallySelectDmgAnimation: 0
+  playDmgSFX: 1
+  dmgSoundFX: {fileID: 0}
+  angleHitFrom: 0
+  contactPoint: {x: 0, y: 0, z: 0}
+  damagePenalty: 0

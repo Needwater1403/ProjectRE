@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 568eb42571c0fdb4cb21d2b53f9883e7, type: 3}
+  m_Name: RWeapon_Rifle
+  m_EditorClassIdentifier: 
+  ID: 1003
+  amount: 1
+  basePriceInShop: 0
+  name: 
+  baseName: 
+  icon: {fileID: 21300000, guid: c5e6a8060af8d1e4198f9147f346f024, type: 3}
+  description: 
+  itemType: 1
+  personalID: 1
+  weight: 1
+  level: 0
+  animatorOverrideController: {fileID: 22100000, guid: 982cd7a4005b3ae4684e50e3a4e5073d,
+    type: 2}
+  weaponModel: {fileID: 4924559744042145907, guid: 30fa6f6491994d4408c60d0ff4ee35d6,
+    type: 3}
+  weaponType: 3
+  physicalDamage: 0
+  fireDamage: 0
+  lightningDamage: 0
+  poiseDamage: 0
+  staminaDamage: 0
+  lightAttack01_Damage_Modifier: 1.1
+  lightAttack02_Damage_Modifier: 1.2
+  baseStaminaCost: 12
+  lightAttack01_StaminaCost_Multiplier: 1
+  lightAttack02_StaminaCost_Multiplier: 1.1
+  AttackSFX:
+    list:
+    - item: {fileID: 8300000, guid: 097e8235e0162d64ba53da9ef4ab8d61, type: 3}
+      rarity: 1
+  weaponItemAction: {fileID: 11400000, guid: 39bc4f93543ab9e40876f40824984771, type: 2}
+  ammoType: 1
+  ammoCapacity: 30
+  fireMode: 2
+  fireRate: 10
+  burstFireRate: 10
+  bulletPerShot: 1
+  spreadOffset: 6
+  hitZombieVFX: {fileID: 100002, guid: 3b1513bcb86426b4795879be6a128ed7, type: 3}
+  hitTerrainVFX: {fileID: 100002, guid: 99c73c92ac40473459640b165473206f, type: 3}
+  reloadSFX:
+    list:
+    - item: {fileID: 8300000, guid: 778c7be53403f9e45804f5a61a13a3e6, type: 3}
+      rarity: 0
+    - item: {fileID: 8300000, guid: a83b772961497b2499aec1799fc7cd58, type: 3}
+      rarity: 0
+    - item: {fileID: 8300000, guid: db760ded7b325ca4c869117c8c9dc1b2, type: 3}
+      rarity: 0
+  aimFX:
+    list:
+    - item: {fileID: 8300000, guid: afe80d867ef6b8c4fa45b07f1f99533c, type: 3}
+      rarity: 1
+  unAimFX:
+    list: []
+  emptySFX:
+    list:
+    - item: {fileID: 8300000, guid: 9b2ce00d16b72c34a9b46200421a6def, type: 3}
+      rarity: 0

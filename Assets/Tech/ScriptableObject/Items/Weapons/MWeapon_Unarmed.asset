@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a6adaf504663124b9ad74fecd01e9ca, type: 3}
+  m_Name: MWeapon_Unarmed
+  m_EditorClassIdentifier: 
+  ID: 1000
+  amount: 0
+  basePriceInShop: 0
+  name: 
+  baseName: 
+  icon: {fileID: 0}
+  description: 
+  itemType: 0
+  personalID: 0
+  weight: 0
+  level: 0
+  animatorOverrideController: {fileID: 0}
+  weaponModel: {fileID: 0}
+  weaponType: 6
+  physicalDamage: 0
+  fireDamage: 0
+  lightningDamage: 0
+  poiseDamage: 0
+  staminaDamage: 0
+  lightAttack01_Damage_Modifier: 1.1
+  lightAttack02_Damage_Modifier: 1.2
+  baseStaminaCost: 12
+  lightAttack01_StaminaCost_Multiplier: 1
+  lightAttack02_StaminaCost_Multiplier: 1.1
+  weaponItemAction: {fileID: 0}
+  riposte_Damage_Modifier: 2.5

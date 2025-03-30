@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01d44bc833921e4ebe5342b6d73197e, type: 3}
+  m_Name: RedDemon_Attack04_4
+  m_EditorClassIdentifier: 
+  animationName: Attack_04_4
+  comboAction: {fileID: 0}
+  chanceToDoCombo: 0
+  attackType: 0
+  isUsingRightHand: 0
+  isUsingLeftHand: 0
+  isUsingDuelWield: 0
+  canBeParried: 1
+  weight: 5
+  recoveryTime: 1.1
+  minAttackAngle: -60
+  maxAttackAngle: 60
+  minAttackDistance: 4
+  maxAttackDistance: 6

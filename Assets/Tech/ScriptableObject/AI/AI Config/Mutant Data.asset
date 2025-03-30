@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c50949e291a34046812f1a57c699b0d, type: 3}
+  m_Name: Mutant Data
+  m_EditorClassIdentifier: 
+  speed: 1.1
+  angularSpeed: 240
+  acceleration: 8
+  verticalMovement: 0.5
+  animatorOverrideController: {fileID: 0}
+  lineOfSight: 20
+  minViewableAngle: -45
+  maxViewableAngle: 45
+  canPivot: 0
+  ignoreStanceBreak: 1
+  maxStance: 150
+  currentStance: 0
+  stanceRecoverySpeed: 15
+  defaultStanceRecoveryTime: 15
+  attackRotationSpeed: 25
+  totalPhase: 2
+  phase2CapPercentage: 75
+  phase3CapPercentage: 0
+  maxHealth: 10
+  maxStamina: 1000
+  poise: 300
+  defaultPoiseResetTimer: 8
+  changePhaseBasedOnHp: 0
+  axePhysicalDamage: 75
+  axeFireDamage: 0
+  axeLightningDamage: 0
+  axePoiseDamage: 60
+  axeStaminaDamage: 0
+  stompPhysicalDamage: 60
+  stompFireDamage: 0
+  stompLightningDamage: 0
+  stompPoiseDamage: 60
+  stompStaminaDamage: 0
+  stompRadius: 5
+  attack01DmgMultiplier: 1
+  attack02DmgMultiplier: 1
+  attack03DmgMultiplier: 1
+  attack04DmgMultiplier: 1
+  attack05DmgMultiplier: 1
+  attackStompDmgMultiplier: 1

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a6adaf504663124b9ad74fecd01e9ca, type: 3}
+  m_Name: MWeapon_WiredBat
+  m_EditorClassIdentifier: 
+  ID: 1001
+  amount: 0
+  basePriceInShop: 0
+  name: 
+  baseName: 
+  icon: {fileID: 21300000, guid: aa78bd663c915ee45b388f49321d2bb9, type: 3}
+  description: 
+  itemType: 1
+  personalID: 0
+  weight: 0
+  level: 0
+  animatorOverrideController: {fileID: 22100000, guid: 1b7b8d68ff974af418770336130e246d,
+    type: 2}
+  weaponModel: {fileID: 2909687455591682279, guid: bd05ac6037e724e409625281f039329e,
+    type: 3}
+  weaponType: 0
+  physicalDamage: 30
+  fireDamage: 0
+  lightningDamage: 0
+  poiseDamage: 30
+  staminaDamage: 0
+  lightAttack01_Damage_Modifier: 1.1
+  lightAttack02_Damage_Modifier: 1.2
+  baseStaminaCost: 12
+  lightAttack01_StaminaCost_Multiplier: 1
+  lightAttack02_StaminaCost_Multiplier: 1.1
+  AttackSFX:
+    list:
+    - item: {fileID: 8300000, guid: e521c8c1dff5ba940b4ca3e1752512e5, type: 3}
+      rarity: 1
+    - item: {fileID: 8300000, guid: 6d49b319b4acf3046be7d6461009306c, type: 3}
+      rarity: 1
+    - item: {fileID: 8300000, guid: ccb7381917193bf4fa5190f635d8ac26, type: 3}
+      rarity: 1
+    - item: {fileID: 8300000, guid: ce927052d862467438afe0b23022c247, type: 3}
+      rarity: 1
+  weaponItemAction: {fileID: 11400000, guid: 3b13d09b40b70ba46884cac505be893a, type: 2}
+  riposte_Damage_Modifier: 2.5

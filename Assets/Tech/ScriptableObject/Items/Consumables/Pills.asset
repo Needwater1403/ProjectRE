@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf820b6f5ba497f42be9b68a38ce66f6, type: 3}
+  m_Name: Pills
+  m_EditorClassIdentifier: 
+  ID: 4000
+  amount: 1
+  basePriceInShop: 0
+  name: Pills
+  baseName: Pills
+  icon: {fileID: 21300000, guid: 8cad069114bdb6f45bd93e9b509f09d5, type: 3}
+  description: 
+  itemType: 0
+  effectDescription: 
+  healBaseOnMaxHPPercentage: 1
+  healAmount: 50

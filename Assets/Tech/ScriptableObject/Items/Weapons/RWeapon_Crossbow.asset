@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 568eb42571c0fdb4cb21d2b53f9883e7, type: 3}
+  m_Name: RWeapon_Crossbow
+  m_EditorClassIdentifier: 
+  ID: 1006
+  amount: 0
+  basePriceInShop: 0
+  name: 
+  baseName: 
+  icon: {fileID: 21300000, guid: b7492be94f1bb444eb62a064a2bc14bc, type: 3}
+  description: 
+  itemType: 1
+  personalID: 0
+  weight: 0
+  level: 0
+  animatorOverrideController: {fileID: 22100000, guid: 9b42af8147f409f478b714c0985673a1,
+    type: 2}
+  weaponModel: {fileID: 2672131399700691381, guid: cbf41fa62f3cf424fa4520517e967ab5,
+    type: 3}
+  weaponType: 1
+  physicalDamage: 0
+  fireDamage: 0
+  lightningDamage: 0
+  poiseDamage: 0
+  staminaDamage: 0
+  lightAttack01_Damage_Modifier: 1.1
+  lightAttack02_Damage_Modifier: 1.2
+  baseStaminaCost: 12
+  lightAttack01_StaminaCost_Multiplier: 1
+  lightAttack02_StaminaCost_Multiplier: 1.1
+  AttackSFX:
+    list:
+    - item: {fileID: 8300000, guid: 0c187ee2790c74c4e9985aa1ee1a12d5, type: 3}
+      rarity: 1
+  weaponItemAction: {fileID: 11400000, guid: c187717703077594ba901c65217709a3, type: 2}
+  ammoType: 4
+  ammoCapacity: 1
+  fireMode: 0
+  fireRate: 5
+  burstFireRate: 10
+  bulletPerShot: 1
+  spreadOffset: 10
+  hitZombieVFX: {fileID: 100002, guid: 3b1513bcb86426b4795879be6a128ed7, type: 3}
+  hitTerrainVFX: {fileID: 100002, guid: 99c73c92ac40473459640b165473206f, type: 3}
+  reloadSFX:
+    list:
+    - item: {fileID: 8300000, guid: 3708806e828002547b07099a479a0e59, type: 3}
+      rarity: 1
+  aimFX:
+    list:
+    - item: {fileID: 8300000, guid: afe80d867ef6b8c4fa45b07f1f99533c, type: 3}
+      rarity: 1
+  unAimFX:
+    list: []
+  emptySFX:
+    list: []
