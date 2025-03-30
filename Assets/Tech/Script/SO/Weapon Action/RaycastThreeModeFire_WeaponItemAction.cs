@@ -73,7 +73,6 @@ public class RaycastThreeModeFire_WeaponItemAction : WeaponItemAction
                     effect.angleHitFrom =
                         Vector3.SignedAngle(player.transform.forward, target.transform.forward, Vector3.up);
                     target._controlStatusEffects.HandleInstantEffect(effect);
-                    Debug.Log(hit.transform.name);
                     break;
             }
             player._controlInventory.currentAmmoAmountInMag--;

@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using AmazingAssets.AdvancedDissolve;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -116,16 +115,7 @@ public class CharacterManager : MonoBehaviour
         DropItems();
         
         // DISABLE CHARACTER
-        var clip = 0f;
-        while (clip < 1f)
-        {
-            clip += Time.deltaTime;
-            foreach (var _material in _materialList)
-            {
-                AdvancedDissolveProperties.Cutout.Standard.UpdateLocalProperty(_material, AdvancedDissolveProperties.Cutout.Standard.Property.Clip, clip);
-            }
-            yield return null;
-        }
+      
         gameObject.SetActive(false);
     }
     

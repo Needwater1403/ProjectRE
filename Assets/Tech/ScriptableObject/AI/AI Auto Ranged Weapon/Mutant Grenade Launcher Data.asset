@@ -15,17 +15,17 @@ MonoBehaviour:
   rangedWeaponItem: {fileID: 11400000, guid: fb2578f9749b8644c9bd2bcbaa149611, type: 2}
   ammoItemDataList: []
   rangedProjectileItemDataList:
-  - rangedProjectileItem: {fileID: 11400000, guid: 737e601b6755f9f40b3f6b8c673a73df,
-      type: 2}
-    reloadTime: 10
-    minRange: 9.5
-    maxRange: 13
-    effectTime: 0
-    effectTickTime: 0
   - rangedProjectileItem: {fileID: 11400000, guid: 8f611773d9b17484ebf7d9bd57d3b089,
       type: 2}
     reloadTime: 11
     minRange: 5
     maxRange: 13
     effectTime: 3
+    effectTickTime: 0
+  - rangedProjectileItem: {fileID: 11400000, guid: 737e601b6755f9f40b3f6b8c673a73df,
+      type: 2}
+    reloadTime: 10
+    minRange: 9.5
+    maxRange: 13
+    effectTime: 0
     effectTickTime: 0

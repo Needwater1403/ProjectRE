@@ -626,9 +626,9 @@ MonoBehaviour:
   spawnEulerRot: {x: 0, y: 0, z: 0}
   bossID: 0
   bossName: Mutant
-  bossSlainPopUpText: Mutant Slain
-  bossIntroTrack: {fileID: 0}
-  bossLoopTrack: {fileID: 0}
+  bossSlainPopUpText: MUTANT SLAIN
+  bossIntroTrack: {fileID: 8300000, guid: 9de8d06f73efda841af44dd87762afe9, type: 3}
+  bossLoopTrack: {fileID: 8300000, guid: 194b6d43a3275ab4895b9927e4563847, type: 3}
   isDefeated: 0
   isAwakened: 0
   isInBossEvent: 0
@@ -863,8 +863,6 @@ MonoBehaviour:
       rarity: 1
     - item: {fileID: 8300000, guid: 2b87104c23756f647b8496d6f028bf83, type: 3}
       rarity: 1
-  axeImpactVFX:
-    list: []
 --- !u!82 &2998978754446177548
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3942,7 +3940,7 @@ PrefabInstance:
     - target: {fileID: 1936870952686831191, guid: bd2464f5fbe38ee4fbf855d9b9809120,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.145
+      value: 15.7
       objectReference: {fileID: 0}
     - target: {fileID: 1936870952686831191, guid: bd2464f5fbe38ee4fbf855d9b9809120,
         type: 3}

@@ -176,7 +176,7 @@ public class AICharacterControlCombat : CharacterControlCombat
             if(ignoreStanceBreak) return;
             Debug.Log("STANCE BREAK");
             _aiCharacterManager._controlAnimator.PlayActionAnimationInstantly(Constants.PlayerAnimation_Stance_Break_01,true);
-            _aiCharacterManager._controlSoundFXBase.PlayStanceBreakSFX(0.25f);
+            //_aiCharacterManager._controlSoundFXBase.PlayStanceBreakSFX(0.25f);
         }
     }
 

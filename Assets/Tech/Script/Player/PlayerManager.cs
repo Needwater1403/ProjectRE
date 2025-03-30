@@ -114,7 +114,7 @@ public class PlayerManager : CharacterManager
          PlayerUIManager.Instance.popUpsManager.ShowYouDiedPopUp();
          
          //PLAY SFX
-         //WorldSoundFXManager.Instance.PlayPopUpSfx(WorldSoundFXManager.Instance.youDieSFX);
+         WorldSoundFXManager.Instance.PlayPopUpSfx(WorldSoundFXManager.Instance.youDieSFX);
          
          _controlStatsBase.currentHealth = 0;
          SetIsDeadStatus(true);

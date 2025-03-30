@@ -7,9 +7,12 @@ public class WinGame_TriggerCollider : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        WorldAIManager.Instance.DestroyAICharacters();
-        PlayerUIManager.Instance.SetPauseMenu(true);
-        PlayerUIManager.Instance.pauseMenuManager._winLabel.gameObject.SetActive(true);
-        PlayerUIManager.Instance.pauseMenuManager.DisableExitButton();
+        if (other.gameObject.CompareTag(Constants.PlayerTag))
+        {
+            WorldAIManager.Instance.DestroyAICharacters();
+            PlayerUIManager.Instance.SetPauseMenu(true);
+            PlayerUIManager.Instance.pauseMenuManager._winLabel.gameObject.SetActive(true);
+            PlayerUIManager.Instance.pauseMenuManager.DisableExitButton();
+        }
     }
 }

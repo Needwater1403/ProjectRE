@@ -2143,6 +2143,7 @@ MonoBehaviour:
   _controlEquipment: {fileID: 3994922627189186784}
   _controlInventory: {fileID: 7415800091532824588}
   _controlInteractive: {fileID: 3772071700094910066}
+  _controlSoundFX: {fileID: 6926447641483664529}
   isFrozen: 0
 --- !u!114 &6422748113896336681
 MonoBehaviour:
@@ -2339,10 +2340,8 @@ MonoBehaviour:
     list: []
   characterAttackVFX:
     list: []
-  characterFootstepVFX:
-    list: []
   _playerManager: {fileID: 3488649627046761796}
-  healSFX: {fileID: 0}
+  healSFX: {fileID: 8300000, guid: 126724e5cf2f43149b0a4b843fcb4b34, type: 3}
 --- !u!114 &7342538960014087400
 MonoBehaviour:
   m_ObjectHideFlags: 0

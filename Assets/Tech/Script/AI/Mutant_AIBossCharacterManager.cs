@@ -7,11 +7,11 @@ using UnityEngine.Serialization;
 
 public class Mutant_AIBossCharacterManager : AIBossCharacterManager
 {
-    [TabGroup("Manager", "Red Demon")] 
+    [TabGroup("Manager", "Mutant")] 
     public Mutant_AICharacterControlCombat mutantControlCombat;
-    [TabGroup("Manager", "Red Demon")] 
+    [TabGroup("Manager", "Mutant")] 
     public Mutant_AISoundFXManager mutantControlSoundFX;
-    [TabGroup("Manager", "Red Demon")] 
+    [TabGroup("Manager", "Mutant")] 
     public AICharacterAutoRangeWeaponManager autoRangeWeaponManager;
     protected override void Awake()
     {
@@ -40,13 +40,5 @@ public class Mutant_AIBossCharacterManager : AIBossCharacterManager
         // SET CURRENT PHASE TO NEW COMBAT STANCE PHASE (COMBAT STANCE PHASE 2)
         currentState = GetState(_controlCombat.ChangeCombatStancePhase(stateName));
         _controlCombat.SetCombatStanceMaxRange(this);
-    }
-    
-
-    private void HandelEndPhase2CutScene()
-    {
-        currentState = GetState(AIStateName.Pursue);
-        WorldAIManager.Instance.canProcessState = true;
-        _controlCombatBase.isInvulnerable = true;
     }
 }

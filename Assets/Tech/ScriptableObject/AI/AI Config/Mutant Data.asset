@@ -30,7 +30,7 @@ MonoBehaviour:
   totalPhase: 2
   phase2CapPercentage: 75
   phase3CapPercentage: 0
-  maxHealth: 10
+  maxHealth: 1400
   maxStamina: 1000
   poise: 300
   defaultPoiseResetTimer: 8

@@ -6,6 +6,7 @@ using Sirenix.OdinInspector;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Serialization;
+using Random = UnityEngine.Random;
 
 public class WorldSoundFXManager : MonoBehaviour
 {
@@ -74,9 +75,9 @@ public class WorldSoundFXManager : MonoBehaviour
         if(bossIntroPlayer.isPlaying)
         {
             bossLoopPlayer.Stop();
-            StartCoroutine(FadeOutBossMusicIntro(2f, isBossDefeated));
+            StartCoroutine(FadeOutBossMusicIntro(1f, isBossDefeated));
         }
-        else StartCoroutine(FadeOutBossMusic(2f, isBossDefeated));
+        else StartCoroutine(FadeOutBossMusic(1f, isBossDefeated));
     }
 
     #endregion
@@ -100,6 +101,20 @@ public class WorldSoundFXManager : MonoBehaviour
     
     #endregion
 
+    #region PopUP
+
+    public void PlayPopUpSfx(AudioClip sfx, float volume = 1f, bool randomizePitch = true, float pitchRandom = 0.1f)
+    {
+        popUpSFXPlayer.PlayOneShot(sfx, volume);
+        popUpSFXPlayer.pitch = 1;
+        if (randomizePitch)
+        {
+            popUpSFXPlayer.pitch += Random.Range(-pitchRandom, pitchRandom);
+        }
+    }
+
+    #endregion
+    
     #region Coroutine
 
     private IEnumerator FadeOutBossMusicIntro(float duration, bool isBossDefeated = false)
@@ -112,7 +127,7 @@ public class WorldSoundFXManager : MonoBehaviour
             bossIntroPlayer.volume = 1;
             bossIntroPlayer.clip = bossSlainSFX;
             bossIntroPlayer.loop = false;
-            bossIntroPlayer.Play();
+            //bossIntroPlayer.Play();
         }
         PlayAmbientSoundTrack();
     }
@@ -126,7 +141,7 @@ public class WorldSoundFXManager : MonoBehaviour
             bossIntroPlayer.volume = 1;
             bossIntroPlayer.clip = bossSlainSFX;
             bossIntroPlayer.loop = false;
-            bossIntroPlayer.Play();
+            //bossIntroPlayer.Play();
         }
         PlayAmbientSoundTrack();
     }

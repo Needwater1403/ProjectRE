@@ -1344,7 +1344,7 @@ MonoBehaviour:
     m_Mode: 4
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 3411411376435965776}
-    m_SelectOnDown: {fileID: 0}
+    m_SelectOnDown: {fileID: 3411411376435965776}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
@@ -6707,7 +6707,7 @@ MonoBehaviour:
   buttonSelectSFX: {fileID: 8300000, guid: ba42f48a9ff131c448d194647eeb174b, type: 3}
   buttonClickSFX: {fileID: 8300000, guid: 778b4bd40285df841b9cbc67f45c924e, type: 3}
   startGameSFX: {fileID: 8300000, guid: 505ca3812bdbf5a4c90ac131fa071ee5, type: 3}
-  backGroundMusic: {fileID: 8300000, guid: 76d31cbb140ab4c40b415befff40321f, type: 3}
+  backGroundMusic: {fileID: 8300000, guid: 7f0a95473d81a7c4fb2415e2efac7935, type: 3}
 --- !u!1 &2538283459383818534
 GameObject:
   m_ObjectHideFlags: 0
@@ -6821,7 +6821,7 @@ MonoBehaviour:
   m_Navigation:
     m_Mode: 4
     m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
+    m_SelectOnUp: {fileID: 839567750313108962}
     m_SelectOnDown: {fileID: 839567750313108962}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}

@@ -4,6 +4,7 @@ using Sirenix.OdinInspector;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New AI Auto Ranged Weapon Data", menuName = "A.I/Config AI Auto Ranged Weapon")]
+[InlineEditor]
 public class ConfigAIAutoRangedWeapon : ScriptableObject
 {
     [Title("Weapon")]
