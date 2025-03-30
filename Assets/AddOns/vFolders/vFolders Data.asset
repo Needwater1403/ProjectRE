@@ -17,6 +17,7 @@ MonoBehaviour:
     - 8692e437a8438f64bbe32251c0244703
     - ab80df1231e410a4c9790d55f0c7e8ea
     - 91a8c1c8f3f16c4488049ea299cd86f5
+    - e569d9fdeb80acf46896f5a7f81efced
     values:
     - colorIndex: 1
       iconNameOrGuid: 
@@ -24,3 +25,5 @@ MonoBehaviour:
       iconNameOrGuid: 
     - colorIndex: 6
       iconNameOrGuid: Settings Icon
+    - colorIndex: 4
+      iconNameOrGuid: 
